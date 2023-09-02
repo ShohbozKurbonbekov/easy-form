@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OB-HAVO MALUMOTLARI</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="./images/e3f4d274d02fc8c0c1a28e9ae45b0e59.jpeg">
+    <style>
+        .header{
+            background:url(./images/clouds-dawn-dramatic-1118873.jpg) no-repeat center center;
+            background-size:cover;
+        }
+        .btn:hover{
+            background-color: green;;
+            color:black;
+            font-weight: 600;
+        }
+        .header .container .card{
+            background:linear-gradient( to bottom right, rgb(0,0,0,0.4), rgb(0,0,0,0.4));
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 mt-5">
+                     <h3 class="fw-bold text-white"> So'ngi  Ob-Havo malumotlaridan habardor bo'lish uchun malumotlaringizni kiritinng va ob-havoni <code>3D</code> holatda ko'ring</h3>
+                </div>
+                <div class="col-md-10 offset-md-1">
+                    <form class="needs-validation" novalidate>
+                        <div class="card my-5 p-3 shadow-lg rounded-4">
+                            <div class="card-body text-white" >
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label for="name" class=" form-label fw-bold fs-5 my-2"> Ismingiz</label>
+                                        <input type="text" class="form-control " placeholder="Ismingiz" id="name" name="name" required>
+                                        <div class="invalid-feedback">
+                                           Iltimos ismingzni to'gri kiriting
+                                        </div>
+                                        <div class="text-form">
+                                            Ismingizni kiriting !
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" >
+                                        <label for="surname" class=" form-label fw-bold fs-5 my-2"> Familiyangiz</label>
+                                        <input type="text" id="surname" class="form-control " placeholder="Familiyangiz" name="surname" required >
+                                        <div class="invalid-feedback">
+                                            Iltimos familiyangizni to'gri kiriting
+                                        </div>
+                                        <div class="text-form">
+                                            Familiyangizni  kiriting !
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" >
+                                        <label for="address-1" class="form-label fw-bold fs-5 my-2"> Manzil 1</label>
+                                        <input type="text" id="address-1" class="form-control" placeholder="Seoul City" name="address" required >
+                                        <div class="invalid-feedback">
+                                            Iltimos manzilingizni to'gri kiriting
+                                        </div>
+                                        <div class="text-form">
+                                            Hozirgi yashayotgan manzilingizni  kiriting !
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" >
+                                        <label for="address-2" class="form-label fw-bold fs-5 my-2"> Qayerni Ob-Havosi haqida malumot olishini hoxlaysz</label>
+                                        <input type="text" id="address-2" class="form-control " placeholder="Euseong region, Daeso town..." name="address" required >
+                                        <div class="invalid-feedback">
+                                            Iltimos maznilingizni to'gri kiriting
+                                        </div>
+                                        <div class="text-form" >
+                                            Hozirgi yashayotgan manzilingizni to'iq  kiriting !
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="number" class="form-label fw-bold fs-5 my-2">Telefon raqam</label>
+                                        <input type="number" id="number" class="form-control " placeholder="Telefon raqam" name="number" required>
+                                        <div class="invalid-feedback">
+                                            Iltimos telefon raqamini to'gri kiriting
+                                        </div>
+                                        <div class="text-form" >
+                                            Telefon raqamni  kiriting !
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="number-1" class="form-label fw-bold fs-5 my-2">Oldin ishlatilgan raqam (ixtiyoriy)</label>
+                                        <input type="number" id="number-1" class="form-control " placeholder="Telefon raqam" name="number">
+                                        <div class="invalid-feedback">
+                                            Iltimos telefon raqamini to'gri kiriting
+                                        </div>
+                                        <div class="text-form" >
+                                            Telefon raqamni  kiriting !
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label fw-bold fs-5 my-2">Emailingiz</label>
+                                        <input type="email" id="email" class="form-control " placeholder="Email" name="email" required>
+                                        <div class="invalid-feedback">
+                                            Iltimos emailingizni to'liq to'gri kiriting
+                                        </div>
+                                        <div class="text-form" >
+                                            emailingizni  kiriting !
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="password" class="form-label fw-bold fs-5 my-2">Email paroli</label>
+                                        <input type="password" id="password" class="form-control " placeholder="Email paroli" name="password " required>
+                                        <div class="invalid-feedback">
+                                            Iltimos emailingizni parolini to'liq to'gri kiriting
+                                        </div>
+                                        <div class="text-form" >
+                                            emailingizni parolini  kiriting !
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="state" class="form-label">Qaysi davlat fuqorosisiz</label>
+                                        <select class="form-select " name="state" id="state" required>
+                                            <option value="">Davlatingizni toping bu yerdan </option>
+                                            <option value="1">O'zbekistan </option>
+                                            <option value="2">Qazag'istan</option>
+                                            <option value="3">Qirg'iziston </option>
+                                            <option value="4">Tojikiston </option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Iltimos Davlat nonimini to'liq kiriting
+                                        </div>
+                                        <div class="text-form" >
+                                            Qaysi davlat fuqorosi ekanligizni  kiriting !
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input " id="remember-me" name="recall">
+                                            <label for="remember-me" class="form-check-label">Hammasini saqlab qo'lish</label>
+                                            <div class="text-form">
+                                                Keyingi kirganizda yordam bo'lishi uchun
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid">
+                                        <button type="submit" class="btn btn-primary rounded-4 my-4">
+                                            Jo'natish
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </header>
+      <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+  </script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
